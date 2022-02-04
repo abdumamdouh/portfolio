@@ -114,23 +114,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Ain Shams University",
+      logo: require("./assets/images/ainShamasLogo.png"),
+      subHeader: "Bachelor's Degree in Computer Engineering",
+      duration: "September 2017 - July 2022",
+      desc: "Activities and Societies:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "IT Specialist, Aviation CLUB EG.",
+        "Media Member, Enactus Ain Shams University.",
+        "Graphic Designer/ Illustrator, STP."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Udacity",
+      logo: require("./assets/images/udacityLogo.png"),
+      subHeader: "Nanodegree Program",
+      duration: "May 2021 - Feb 2022",
+      desc: "Several Udacity Nanodegree Programs:",
+      descBullets: [
+        "Front End Web Developer Nanodegree.",
+        "React Developer Nanodegree.",
+        "Full Stack JavaScript Developer Nanodegree."
+    ]
     }
   ]
 };
@@ -166,10 +171,12 @@ const workExperiences = {
       company: "Nabta Health",
       companylogo: require("./assets/images/nabtaLogo.jpg"),
       date: "Oct 2021 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "The Middle East and North Africa's first dedicated platform for women's health.",
       descBullets: [
         "Works on client-side support for Nabta Health App using React Native.",
-        "Works in an agile team using GitLab as a management tool"
+        "Works on server-side support for Nabta server using Groovy and Grails",
+        "Works in an agile team using GitLab as a management tool",
+        "Works with Finite State Machines of chatbot"
       ]
     },
     {
@@ -177,7 +184,11 @@ const workExperiences = {
       company: "Major League Hacking",
       companylogo: require("./assets/images/MLHLogo.jpg"),
       date: "Jan 2022 – Apr 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "The Open Source Program is an opportunity to learn how to be a great Open Source citizen by contributing to major projects on GitHub used by thousands of companies worldwide.",
+      descBullets: [
+        "Got Selected from thousands of applicants to be an MLHFellow for the Spring’22.",
+        "Contributed actively to two major open-source projects, by following best practices in software development (git, deployment, clean code)."
+      ]
     }
   ]
 };
@@ -249,31 +260,6 @@ const achievementSection = {
         {
           name: "Google Code-in Blog",
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
     }
