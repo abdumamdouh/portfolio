@@ -53,39 +53,59 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-ts"
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "fab fa-cpp"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -93,8 +113,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-mongo"
     },
     {
       skillName: "python",
@@ -103,6 +123,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
     }
   ],
   display: true // Set false to hide this section, defaults to true
